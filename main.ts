@@ -1,32 +1,5 @@
-//import inquirer from "inquirer"
-
-//const BMI = await inquirer.prompt([
-  //  {
-    //    type: "number",
-      //  name: "weigth",
-        //message: "kindly enter your weight"
-    //},
-//
-  //  {
-   //     type: "number",
-     //   name: "heigth",
-       // message: "kindly enter your height"
-    //},
-
-//]);
-
-//let w = BMI.weight
-//let h = BMI.heigth
-
-//console.log(` your body mass index is ${w/(h*h)}`)
-
-//console.log(BMI.weight);
-//.log(BMI.heigth);
-
-//console.log(` your body mass index is ${w / h * h}`);
-
+#! /usr/bin/env node
 import inquier from "inquirer";
-
 const BMI = await inquier.prompt([
     {
         type: "number",
